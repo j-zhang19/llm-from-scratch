@@ -12,7 +12,8 @@ Author : **"*Sebastian Raschka*"**
 
 # 2. Attention mechanism
 
-`attention.ipynb` & `MHA.py`
+`attention.ipynb`
 
 # 3. LLM architecture
 
+`gpt_model.ipynb`
