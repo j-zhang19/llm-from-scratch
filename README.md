@@ -10,6 +10,9 @@ Author : **"*Sebastian Raschka*"**
 
 `tokenizer.ipynb`
 
-# 2. Attention mechanisms
+# 2. Attention mechanism
 
-`attention.ipynb`
+`attention.ipynb` & `MHA.py`
+
+# 3. LLM architecture
+
