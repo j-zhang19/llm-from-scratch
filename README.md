@@ -17,3 +17,7 @@ Author : **"*Sebastian Raschka*"**
 # 3. LLM architecture
 
 `gpt_model.ipynb`
+
+# 4. (Pre)Training
+
+`pretraining.ipynb`
