@@ -7,3 +7,8 @@ __pycache__/*
 /gpt2/
 /gpt2/*
 gpt_download.py
+/sms_spam_collection/
+/sms_span_collection/*
+*.zip
+*.csv
+

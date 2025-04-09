@@ -6,18 +6,24 @@ Author : **"*Sebastian Raschka*"**
 
 ---
 
-# 1. Data preparation : preprocessing, tokenizer, sampling & embeddings
+# 1. ~~~
+
+# 2. Data preparation : preprocessing, tokenizer, sampling & embeddings
 
 `tokenizer.ipynb`
 
-# 2. Attention mechanism
+# 3. Attention mechanism
 
 `attention.ipynb`
 
-# 3. LLM architecture
+# 4. LLM architecture
 
 `gpt_model.ipynb`
 
-# 4. (Pre)Training
+# 5. (Pre)Training
 
 `pretraining.ipynb`
+
+# 6. Fine-tuning
+
+`finetuning.ipynb`
