@@ -4,3 +4,6 @@
 __pycache__/
 __pycache__/*
 *.pth
+/gpt2/
+/gpt2/*
+gpt_download.py
