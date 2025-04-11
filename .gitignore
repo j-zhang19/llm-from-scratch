@@ -1,3 +1,4 @@
+*.json
 *.pdf
 *.epub
 .ipynb_checkpoints/*
