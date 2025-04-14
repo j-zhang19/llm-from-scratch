@@ -1,47 +1,57 @@
-# LLM from scratch
 
-Book : **"*Build a Large Language Model (From Scratch)*"**
+# LLM from Scratch
 
-Author : **"*Sebastian Raschka*"**
-
----
-
-# Installation
-
-Create a new venv with `uv`, activate it and install requirements :
-
-`uv venv`
-`source .venv/bin/activate`
-`uv pip install -r requirements.txt`
-
-Check with :
-
-`uv run python python_environment_check.py`
+This project is a hands-on implementation of a GPT-style Large Language Model (LLM) built entirely from scratch, inspired by Sebastian Raschka’s book *Build a Large Language Model (From Scratch)*.  
+It walks through the full development pipeline—from tokenization to attention mechanisms, model architecture, pretraining, and fine-tuning.
 
 ---
 
-# 1. ~~~
+## Structure
 
-# 2. Data preparation : preprocessing, tokenizer, sampling & embeddings
+| Notebook                  | Description                                               |
+|--------------------------------|-----------------------------------------------------------|
+| `tokenizer.ipynb`              | Implements tokenization, sampling, and embeddings         |
+| `attention.ipynb`              | Explores and implements the attention mechanism           |
+| `gpt_model.ipynb`              | Builds the core GPT-style model architecture              |
+| `pretraining.ipynb`            | Pretrains the model on unlabeled data                     |
+| `finetuning.ipynb`             | Fine-tunes the model for classification tasks             |
+| `instruction_finetuning.ipynb` | Fine-tunes the model for instruction-following tasks      |
 
-`tokenizer.ipynb`
+---
 
-# 3. Attention mechanism
+## Installation
 
-`attention.ipynb`
+This project uses [uv](https://github.com/astral-sh/uv) for managing virtual environments and dependencies.
 
-# 4. LLM architecture
+1. **Create a virtual environment:**
 
-`gpt_model.ipynb`
+   ```bash
+   uv venv
+   source .venv/bin/activate
+   ```
 
-# 5. (Pre)Training
+2. **Install dependencies:**
 
-`pretraining.ipynb`
+   ```bash
+   uv pip install -r requirements.txt
+   ```
 
-# 6. Fine-tuning (classifier)
+3. **Verify the environment:**
 
-`finetuning.ipynb`
+   ```bash
+   uv run python python_environment_check.py
+   ```
 
-# 7. Fine-tuning (instruction)
+---
 
-`ìnstruction_finetuning.ipynb`
+## Reference
+
+This project is based on the book:
+
+<img src="https://camo.githubusercontent.com/54a738f9f8e7a0d8660d69a63af04c1f74b7c3059c349c78c29e545422ea73ad/68747470733a2f2f73656261737469616e72617363686b612e636f6d2f696d616765732f4c4c4d732d66726f6d2d736372617463682d696d616765732f636f7665722e6a70673f313233" width=400>
+
+> Sebastian Raschka, *Build a Large Language Model (From Scratch)*
+
+For more information, visit the [official repository](https://github.com/rasbt/LLMs-from-scratch).
+
+---
