@@ -6,6 +6,20 @@ Author : **"*Sebastian Raschka*"**
 
 ---
 
+# Installation
+
+Create a new venv with `uv`, activate it and install requirements :
+
+`uv venv`
+`source .venv/bin/activate`
+`uv pip install -r requirements.txt`
+
+Check with :
+
+`uv run python python_environment_check.py`
+
+---
+
 # 1. ~~~
 
 # 2. Data preparation : preprocessing, tokenizer, sampling & embeddings
@@ -24,6 +38,10 @@ Author : **"*Sebastian Raschka*"**
 
 `pretraining.ipynb`
 
-# 6. Fine-tuning
+# 6. Fine-tuning (classifier)
 
 `finetuning.ipynb`
+
+# 7. Fine-tuning (instruction)
+
+`ìnstruction_finetuning.ipynb`

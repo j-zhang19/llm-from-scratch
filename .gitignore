@@ -1,3 +1,6 @@
+*.png
+/pkg/*
+/pkg/
 *.json
 *.pdf
 *.epub
