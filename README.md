@@ -1,8 +1,8 @@
 
 # LLM from Scratch
 
-This project is a hands-on implementation of a GPT-style Large Language Model (LLM) built entirely from scratch, inspired by Sebastian Raschka’s book *Build a Large Language Model (From Scratch)*.  
-It walks through the full development pipeline—from tokenization to attention mechanisms, model architecture, pretraining, and fine-tuning.
+This project is an implementation of a GPT-style Large Language Model (LLM) built entirely from scratch, inspired by Sebastian Raschka’s book *Build a Large Language Model (From Scratch)*.
+It walks through the full development pipeline: from tokenization to attention mechanisms, model architecture, pretraining, and fine-tuning.
 
 ---
 
